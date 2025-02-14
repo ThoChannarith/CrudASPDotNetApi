@@ -1,6 +1,7 @@
 ﻿using CrudApi.Data;
 using CrudApi.Dtos;
 using CrudApi.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CrudApi.Services
 {
@@ -15,34 +16,55 @@ namespace CrudApi.Services
 
         public Category AddCategory(CategoryCreateDto categoryDto)
         {
+            if (string.IsNullOrWhiteSpace(categoryDto.Code))
+            {
+                throw new ArgumentException("Code cannot be null or empty.");
+            }
+
             // Normalize the code to upper case for case-insensitive comparison
             string normalizedCode = categoryDto.Code.ToUpper().Replace(" ", "_");
 
-            // Check if the code already exists (case-insensitive)
-            if (dbContext.Category.Any(c => c.Code.ToUpper() == normalizedCode))
+
+
+            bool isCodeExists = dbContext.Category
+            .Any(c => c.Code.ToUpper() == normalizedCode && c.IsActive);
+
+            if (isCodeExists)
             {
-                throw new ArgumentException("Code already exists.");
+                throw new ArgumentException("Category code already exists.");
+            }
+            try
+            {
+                var category = new Category
+                {
+                    Code = normalizedCode,
+                    Name = categoryDto.Name,  // Ensure no null issues
+                    Description = categoryDto.Description?.Trim(),
+                    IsActive = true,
+                    UpdateDate = DateTime.UtcNow,
+                    CreateDate = DateTime.UtcNow,
+                };
+
+                dbContext.Category.Add(category);
+                dbContext.SaveChanges();  // <-- Error likely happens here
+
+                return category;
+            }
+            catch (DbUpdateException ex) // Catch DB constraint violations
+            {
+                throw new Exception("Database error: Possible duplicate code constraint.", ex);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An unexpected error occurred while saving the category.", ex);
             }
 
-            var category = new Category
-            {
-                Code = normalizedCode, // Store the normalized code
-                Name = categoryDto.Name,
-                Description = categoryDto.Description,
-                IsActive = true,
-                UpdateDate = DateTime.UtcNow,
-                CreateDate = DateTime.UtcNow,
-            };
 
-            dbContext.Category.Add(category);
-            dbContext.SaveChanges();
-
-            return category;
         }
 
         public IEnumerable<Category> GetAllCategory()
         {
-            return dbContext.Category.ToList();
+            return dbContext.Category.Where(c => c.IsActive).ToList();
         }
 
         public Category GetCategoryByCode(string code)

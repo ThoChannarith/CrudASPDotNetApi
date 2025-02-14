@@ -77,5 +77,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApi.Controllers.ItemController",
+    "Method": "AddItem",
+    "RelativePath": "item/add_item",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemDto",
+        "Type": "CrudApi.Dtos.ItemCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApi.Controllers.ItemController",
+    "Method": "GetAllItem",
+    "RelativePath": "item/get_all_item",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

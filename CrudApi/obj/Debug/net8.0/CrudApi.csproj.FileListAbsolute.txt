@@ -136,3 +136,4 @@ D:\BILL24\file code\Code\C#\Sample Project\CrudApi\CrudApi\obj\Debug\net8.0\refi
 D:\BILL24\file code\Code\C#\Sample Project\CrudApi\CrudApi\obj\Debug\net8.0\CrudApi.pdb
 D:\BILL24\file code\Code\C#\Sample Project\CrudApi\CrudApi\obj\Debug\net8.0\CrudApi.genruntimeconfig.cache
 D:\BILL24\file code\Code\C#\Sample Project\CrudApi\CrudApi\obj\Debug\net8.0\ref\CrudApi.dll
+D:\BILL24\file code\Code\C#\Sample Project\CrudApi\CrudApi\obj\Debug\net8.0\CrudApi.sourcelink.json

@@ -14,6 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<CategoryService>(); // Register CategoryService
+builder.Services.AddScoped<ItemService>(); // Register ItemService
 
 var app = builder.Build();
 

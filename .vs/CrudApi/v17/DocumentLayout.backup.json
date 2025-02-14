@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|d:\\bill24\\file code\\code\\c#\\sample project\\crudapi\\crudapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|solutionrelative:crudapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|d:\\bill24\\file code\\code\\c#\\sample project\\crudapi\\crudapi\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|solutionrelative:crudapi\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|d:\\bill24\\file code\\code\\c#\\sample project\\crudapi\\crudapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|solutionrelative:crudapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|d:\\bill24\\file code\\code\\c#\\sample project\\crudapi\\crudapi\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|solutionrelative:crudapi\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|d:\\bill24\\file code\\code\\c#\\sample project\\crudapi\\crudapi\\dtos\\itemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|solutionrelative:crudapi\\dtos\\itemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|d:\\bill24\\file code\\code\\c#\\sample project\\crudapi\\crudapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|solutionrelative:crudapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|d:\\bill24\\file code\\code\\c#\\sample project\\crudapi\\crudapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|solutionrelative:crudapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|d:\\bill24\\file code\\code\\c#\\sample project\\crudapi\\crudapi\\dtos\\itemupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|solutionrelative:crudapi\\dtos\\itemupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|d:\\bill24\\file code\\code\\c#\\sample project\\crudapi\\crudapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F90837-CEB3-426E-86CA-194DED10047C}|CrudApi\\CrudApi.csproj|solutionrelative:crudapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,59 +33,92 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 204,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Item.cs",
-              "DocumentMoniker": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Models\\Item.cs",
-              "RelativeDocumentMoniker": "CrudApi\\Models\\Item.cs",
-              "ToolTip": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Models\\Item.cs",
-              "RelativeToolTip": "CrudApi\\Models\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ItemUpdateDto.cs",
+              "DocumentMoniker": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Dtos\\ItemUpdateDto.cs",
+              "RelativeDocumentMoniker": "CrudApi\\Dtos\\ItemUpdateDto.cs",
+              "ToolTip": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Dtos\\ItemUpdateDto.cs*",
+              "RelativeToolTip": "CrudApi\\Dtos\\ItemUpdateDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T08:10:59.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CrudApi\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CrudApi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T08:09:27.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ItemService.cs",
-              "DocumentMoniker": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Services\\ItemService.cs",
-              "RelativeDocumentMoniker": "CrudApi\\Services\\ItemService.cs",
-              "ToolTip": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Services\\ItemService.cs",
-              "RelativeToolTip": "CrudApi\\Services\\ItemService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T07:57:42.292Z",
+              "WhenOpened": "2025-02-13T14:54:28.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ItemCreateDto.cs",
-              "DocumentMoniker": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Dtos\\ItemCreateDto.cs",
-              "RelativeDocumentMoniker": "CrudApi\\Dtos\\ItemCreateDto.cs",
-              "ToolTip": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Dtos\\ItemCreateDto.cs",
-              "RelativeToolTip": "CrudApi\\Dtos\\ItemCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "CrudApi\\Controllers\\ItemController.cs",
+              "ToolTip": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "CrudApi\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvy0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T07:48:51.42Z"
+              "WhenOpened": "2025-02-11T14:28:14.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "CrudApi\\Services\\ItemService.cs",
+              "ToolTip": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Services\\ItemService.cs*",
+              "RelativeToolTip": "CrudApi\\Services\\ItemService.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T07:57:42.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "CrudApi\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "CrudApi\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T14:28:17.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "CrudApi\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Services\\CategoryService.cs",
+              "RelativeToolTip": "CrudApi\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowF0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T14:23:10.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "CrudApi\\Models\\Item.cs",
+              "ToolTip": "D:\\BILL24\\file code\\Code\\C#\\Sample Project\\CrudApi\\CrudApi\\Models\\Item.cs",
+              "RelativeToolTip": "CrudApi\\Models\\Item.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T14:55:36.773Z",
+              "EditorCaption": ""
             }
           ]
         }
